@@ -209,3 +209,6 @@ __marimo__/
 
 # Checkpoints
 .ipynb_checkpoints
+
+# Data directories
+data/
