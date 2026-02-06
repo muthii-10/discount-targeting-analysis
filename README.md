@@ -47,12 +47,12 @@ Key steps:
 - Performed EDA
 - Renamed columns for consistency (snake_case)
 - Converted binary fields (Yes/No) to numerical flags
-- Standardized categorical values (frequency, subscription status)
+- Standardized categorical values (frequency of purchases)
 - Handled missing and invalid values
 - Ensured correct data types for numerical and categorical fields  
 
 📁 Relevant file:
-- [Data Profiling and Cleaning Notebook](r"..\notebooks\01_data_profiling_and_cleaning.ipynb")
+- [Data Profiling and Cleaning Notebook](./notebooks/01_data_profiling_and_cleaning.ipynb)
 
 ---
 
@@ -69,14 +69,13 @@ Since full transaction histories were unavailable, customer-level features were 
   - Value tiers (Low / Medium / High)
 - **Behavioral indicators**
   - Discount usage flag
-  - Promo code usage flag
   - Subscription flag
 
 These features enabled segmentation, ranking, and efficiency analysis.
 
 
 📁 Relevant file:
-- [Feature Engineering Notebook](r"..\notebooks\02_data_transformation.ipynb")  
+- [Feature Engineering Notebook](./notebooks/02_data_transformation.ipynb)  
 
 📄 Output table:
 - `customer_features` (PostgreSQL)
@@ -208,7 +207,7 @@ All strategic analysis was performed in **PostgreSQL**, using:
 
 ## 🛠 Tools & Technologies
 - **Python** (pandas, numpy)
-- **PostgreSQL** (CTEs, window functions)
+- **PostgreSQL**
 - **Jupyter Noteboooks**
 - **Git & GitHub** (version control & portfolio)
 
