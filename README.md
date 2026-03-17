@@ -204,7 +204,22 @@ All strategic analysis was performed in **PostgreSQL**, using:
 - Significant opportunity exists to replace discounts with premium experiences
 
 ---
+## Recommendations
+1. Stop Over-Discounting High-Value & Loyal Customers
+   - Gradually reduce discounts for Loyal–High Value customers
+   - Replace discounts with non-monetary rewards, such as early access to new collections, exclusive product drops or free express shipping.
+2. Introduce Targeted Discounting Strategy. For example:
+   - New customers → onboarding discounts (to drive first purchase)
+   - Low-value / price-sensitive customers → targeted promotions
+   - Returning but low-engagement customers → reactivation offers
+3. Personalize Marketing Based on Customer Segments. For example:
+   - High-value customers → premium product recommendations
+   - Discount-sensitive users → deal-focused messaging
+   - Category-specific buyers → tailored product suggestions
+4. Shift from Discounts to Value-Based Incentives such as Bundled offers, Loyalty points or Personalized recommendations
+5. Build a Customer Value Monitoring Dashboard tracking Customer value by segment, Discount usage trends, Segment-level profitability and Retention rates.
 
+   
 ## 🛠 Tools & Technologies
 - **Python** (pandas, numpy)
 - **PostgreSQL**
@@ -214,7 +229,6 @@ All strategic analysis was performed in **PostgreSQL**, using:
 ---
 
 ## 🚀 Next Steps
-- Finalize Power BI dashboards
 - Add recommendation slides for executive audience
 - Simulate discount reduction scenarios
 
