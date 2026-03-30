@@ -275,8 +275,8 @@ with col_d:
 
 st.markdown("""
 <div class="insight-box">
-💡 <b>Insight:</b> If discounted and non-discounted customers spend similar amounts within each tier, 
-discounts are not driving incremental revenue — they are pure margin cost.
+💡 <b>Insight:</b> Discounted and non-discounted customers spend similar amounts within each tier.
+Discounts are not driving incremental revenue — they are pure margin cost.
 </div>
 """, unsafe_allow_html=True)
 
@@ -420,9 +420,8 @@ with col_h:
 
 st.markdown("""
 <div class="insight-box">
-💡 <b>Insight:</b> If subscribers show higher value but similar or lower discount dependency, 
-the subscription itself is doing the retention work — validating a strategy of expanding 
-subscription perks rather than deepening discounts.
+💡 <b>Insight:</b> Subsribers show indifference in value but very high discount dependency.
+This is risky. High churn possibility if discount disappears. Shift from price-driven subscriptions to value-driven.
 </div>
 """, unsafe_allow_html=True)
 
