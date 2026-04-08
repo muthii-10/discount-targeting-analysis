@@ -228,7 +228,7 @@ All strategic analysis was performed in **PostgreSQL**, using:
 - **Discounts are not driving incremental revenue.** Purchase amounts are similar between discounted and non-discounted customers within each loyalty tier
 - **1,145 high-value customers are discount-independent.** Loyal/High (887 customers, avg $392) and Returning/High (258 customers, avg $297) have above-average value and below-average discount usage — immediate margin recovery opportunity
 - **Loyalty and value are not the same dimension.** Value tiers distribute ~33/33/33 within every loyalty tier — blanket loyalty rewards are as inefficient as blanket discounts
-- **Subscription is the retention model that works.** Subscribers show higher avg value than non-subscribers across all tiers — scaling subscription perks is more effective than deepening discounts
+- **Subscription as the retention model doesn't work.** Subscribers show indifference in value compared to non-subscribers across all tiers —  subscription perks are dependent on discounts. High churn expected if discounts are removed.
 - **All 4 product categories show near-identical avg value ($228–$244).** Category is not a value predictor; loyalty and value tier are
 
 ---
@@ -257,7 +257,7 @@ All strategic analysis was performed in **PostgreSQL**, using:
 - Bundled offers, loyalty points, and personalised recommendations replace cash discounts for high-value segments
 - Loyalty points redeemable for store credit — builds retention without eroding margin
 - Premium experiences for Loyal/High-value customers: styling sessions, members-only drops, VIP events
-- **Impact:** Subscribers show higher avg value than non-subscribers across all tiers — subscription is the retention model that works; scale it
+- **Impact:** Discounts will be used strictly as a tool for customer acquisition and conversion.
 
 ### Rec 5 — Build a Customer Value Monitoring Dashboard ✅ Deployed
 - Live Streamlit dashboard tracking Total Customers, Total Proxied CLV, Avg Discount Rate, Retention Rate, and Avg Customer Value Score
